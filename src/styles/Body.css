@@ -1,0 +1,149 @@
+.buy{
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: var(--font);
+}
+.buy:hover{
+  background-color: #fff;
+}
+/* .buy:active{
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+} */
+@media (min-width: 768px) {
+  .buy {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.imagenes{
+  width: 100%;
+}
+.home{
+  margin: 0 auto;
+}
+.caja-central{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.caja-text{
+  margin: 5rem 0;
+}
+.precio{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+
+}
+.precio > span{
+  font-weight: bold;
+  color: #CFC547;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+}
+/* .precio > span {
+  color: green;
+} */
+.rei{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    background-color: #D7DBDD ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .rei > h1{
+    color: white;
+  }
+.rei > strong{
+  text-decoration: none;
+  color: black;
+}
+.rojo{
+    font-weight: bold;
+    color: red;
+  }
+
+
+
+.res, .caja-central{
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  gap: 5vw 2vh;
+  
+}
+
+.total-color{
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  .res{
+    display: flex;
+    flex-flow: row  wrap;
+
+  }
+  .rei{
+    flex: 1 1 200px;
+  } */
+/*   .home{
+    margin: auto;
+    max-width: 1280px;
+  }
+  .res{
+    
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .rei{
+    flex: 0 0 23%;
+    margin: 2rem auto;
+    
+  } */

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
+:root{
+  --first-color: #ABFE04;
+  --second-color: crimson;
+  --white-color: white;
+  --black-color: black;
+  --link-color:#509ee3;
+  --font: 'Aboreto', cursive;
+  --font-cursive: 'Sassy Frass', cursive;
+}
+
+html{
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  overflow-x:hidden;
+  color: var(--black-color);
+  background-image: url(./assets/papper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
+}
+a:hover{
+  opacity: 0.75;
+}
+h1{
+  margin: 0;
+  font-size: 2rem;
+}
+h2{
+  margin: 0;
+  font-size: 1.5rem;
+}
+h3{
+  margin: 0;
+  font-size: 1.25rem;
+}
+h4{
+  margin: 0;
+  font-size: 1rem;
+}
+h5{
+  margin: 0;
+  font-size: 0.85rem;
+}
+h6{
+  margin: 0;
+  font-size: 0.7rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  line-height: 1.6;
+}
+
+
