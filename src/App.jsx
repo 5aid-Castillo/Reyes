@@ -34,7 +34,7 @@ function App() {
                    <Route path="/Sisebuto" element={<Sisebuto />}></Route>
                    <Route path="/Recesvinto" element={<Recesvinto />}></Route>
                    <Route path="/Teodorico" element={<Teodorico />}></Route> 
-                   <Route path="*" element={<Error404 />}></Route>  
+                   <Route path="*" element={<Home />}></Route>  
             </Routes> 
             
             </BrowserRouter>
